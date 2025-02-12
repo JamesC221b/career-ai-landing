@@ -1,6 +1,87 @@
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
-.hero { background-color: #007bff; color: white; text-align: center; padding: 50px 20px; }
-.btn { background-color: #ff7b00; color: white; padding: 15px 25px; text-decoration: none; font-size: 18px; border-radius: 5px; display: inline-block; }
-.container { width: 80%; margin: auto; text-align: center; padding: 50px; }
-.features { display: flex; justify-content: space-around; margin-top: 30px; }
-.feature-box { width: 30%; background: white; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #6a11cb, #ff0099);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.btn {
+    background: linear-gradient(135deg, #ff0099, #ff5500);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.feature-box {
+    width: 90%;
+    max-width: 500px;
+    background: #1e1e1e;
+    color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(255, 0, 153, 0.2);
+    transition: transform 0.3s ease;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input[type="email"] {
+    padding: 12px;
+    font-size: 1rem;
+    width: 300px;
+    border-radius: 25px;
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #ff0099;
+}
+
+button {
+    background: linear-gradient(135deg, #ff0099, #ff5500);
+    padding: 12px 25px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
